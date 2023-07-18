@@ -1,113 +1,93 @@
 package com.example.myapplication
 
 // LV1
-//class Calculator {
-//    // 더하기 연산 메서드
-//    static add(a, b) {
-//        return a + b;
-//    }
-//
-//    // 빼기 연산 메서드
-//    static subtract(a, b) {
-//        return a - b;
-//    }
-//
-//    // 곱하기 연산 메서드
-//    static multiply(a, b) {
-//        return a * b;
-//    }
-//
-//    // 나누기 연산 메서드
-//    static divide(a, b) {
-//        if (b === 0) {
-//            throw new Error("Cannot divide by zero");
+//fun main() {
+//    class Calculator {
+//        fun add(a: Int, b: Int): Int {
+//            return a + b
 //        }
-//        return a / b;
-//    }
-//}
 //
-//// 조건식에 맞춰서 연산 수행
-//var operator = '+';
-//var operand1 = 5;
-//var operand2 = 3;
+//        fun subtract(a: Int, b: Int): Int {
+//            return a - b
+//        }
 //
-//if (operator === '+') {
-//    console.log(`${operand1} + ${operand2} = ${Calculator.add(operand1, operand2)}`);
-//} else if (operator === '-') {
-//    console.log(`${operand1} - ${operand2} = ${Calculator.subtract(operand1, operand2)}`);
-//} else if (operator === '*') {
-//    console.log(`${operand1} * ${operand2} = ${Calculator.multiply(operand1, operand2)}`);
-//} else if (operator === '/') {
-//    try {
-//        console.log(`${operand1} / ${operand2} = ${Calculator.divide(operand1, operand2)}`);
-//    } catch (error) {
-//        console.log(`Error: ${error.message}`);
+//        fun multiply(a: Int, b: Int): Int {
+//            return a * b
+//        }
+//
+//        fun divide(a: Int, b: Int): Int {
+//            return a / b
+//        }
 //    }
-//} else {
-//    console.log("잘못된 연산자입니다.");
+//
+//    val operator = '+'
+//    val calculator = Calculator()
+//
+//    val num1 = 10
+//    val num2 = 5
+//
+//    val result = when (operator) {
+//        '+' -> calculator.add(num1, num2)
+//        '-' -> calculator.subtract(num1, num2)
+//        '*' -> calculator.multiply(num1, num2)
+//        '/' -> calculator.divide(num1, num2)
+//        else -> {
+//            println("잘못된 연산자입니다.")
+//            return
+//        }
+//    }
+//
+//    println(result)
 //}
+
 
 
 // LV2
-//class Calculator {
-//    // 더하기 연산 메서드
-//    static add(a, b) {
-//        return a + b;
-//    }
-//
-//    // 빼기 연산 메서드
-//    static subtract(a, b) {
-//        return a - b;
-//    }
-//
-//    // 곱하기 연산 메서드
-//    static multiply(a, b) {
-//        return a * b;
-//    }
-//
-//    // 나누기 연산 메서드
-//    static divide(a, b) {
-//        if (b === 0) {
-//            throw new Error("Cannot divide by zero");
+//fun main() {
+//    class Calculator {
+//        fun add(a: Int, b: Int): Int {
+//            return a + b
 //        }
-//        return a / b;
-//    }
 //
-//    // 나머지 연산 메서드
-//    static modulo(a, b) {
-//        if (b === 0) {
-//            throw new Error("Cannot calculate modulo with zero divisor");
+//        fun subtract(a: Int, b: Int): Int {
+//            return a - b
 //        }
-//        return a % b;
-//    }
-//}
 //
-//// 조건식에 맞춰서 연산 수행
-//var operator = '%'; // 나머지 연산을 수행하려면 연산자를 '%'로 변경해주세요.
-//var operand1 = 10;
-//var operand2 = 3;
+//        fun multiply(a: Int, b: Int): Int {
+//            return a * b
+//        }
 //
-//if (operator === '+') {
-//    console.log(`${operand1} + ${operand2} = ${Calculator.add(operand1, operand2)}`);
-//} else if (operator === '-') {
-//    console.log(`${operand1} - ${operand2} = ${Calculator.subtract(operand1, operand2)}`);
-//} else if (operator === '*') {
-//    console.log(`${operand1} * ${operand2} = ${Calculator.multiply(operand1, operand2)}`);
-//} else if (operator === '/') {
-//    try {
-//        console.log(`${operand1} / ${operand2} = ${Calculator.divide(operand1, operand2)}`);
-//    } catch (error) {
-//        console.log(`Error: ${error.message}`);
+//        fun divide(a: Int, b: Int): Int {
+//            return a / b
+//        }
+//        fun remainder(a: Int, b: Int): Int {
+//            return a % b
+//        }
 //    }
-//} else if (operator === '%') {
-//    try {
-//        console.log(`${operand1} % ${operand2} = ${Calculator.modulo(operand1, operand2)}`);
-//    } catch (error) {
-//        console.log(`Error: ${error.message}`);
+//
+//    val operator = '+'
+//    val calculator = Calculator()
+//
+//    val num1 = 10
+//    val num2 = 5
+//
+//    val result = when (operator) {
+//        '+' -> calculator.add(num1, num2)
+//        '-' -> calculator.subtract(num1, num2)
+//        '*' -> calculator.multiply(num1, num2)
+//        '/' -> calculator.divide(num1, num2)
+//        '%' -> calculator.remainder(num1, num2)
+//        else -> {
+//            println("잘못된 연산자입니다.")
+//            return
+//        }
 //    }
-//} else {
-//    console.log("잘못된 연산자입니다.");
+//
+//    println(result)
 //}
+
+
+
 
 
 // LV3
